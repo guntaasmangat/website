@@ -5,7 +5,9 @@
     
 }
 
-<!-- Setting margins and font for entire webpage-->
+<!-- 
+Setting margins and font for entire webpage
+-->
 
 .header {
     background-image: url(./compute-ea4c57a4.png);
@@ -16,7 +18,9 @@
     height: 100vh;
 }
 
-<!-- Background image-->
+<!-- 
+Background image
+-->
 nav{
     display: flex;
     padding: 2% 6%;
@@ -24,20 +28,26 @@ nav{
     align-items: center;
 }
 
-<!-- Nav tool bar-->
+<!-- 
+Nav tool bar
+-->
 
 nav img{
     width: 75px;
 }
 
-<!-- sizing the logo top right-->
+<!-- 
+sizing the logo top right
+-->
 
 .nav-links{
     flex: 2;
     text-align: right;
 }
 
-<!-- align nav toolbar to the right side -->
+<!-- 
+align nav toolbar to the right side
+-->
 
 .nav-links ul li{
     list-style: none;
@@ -46,13 +56,17 @@ nav img{
     position: relative;
 }
 
-<!-- Expand the Nav on the top of the screen-->
+<!-- 
+Expand the Nav on the top of the screen
+-->
 
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
     font-size: 24px;
 }
-<!-- Remove ugly hyperlink-->
+<!--
+Remove ugly hyperlink
+-->
 
 
