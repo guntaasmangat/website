@@ -45,5 +45,9 @@ nav img{
     height: 2px;
     background: #0099FF;
     display: block;
-    
+    transition: 1.0s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
 }
