@@ -71,7 +71,7 @@ h1 {
                             }
                             .type > span {
                               display:grid;
-                              
+                              overflow:hidden
                               height:1.3em;
                               vertical-align:bottom;
                             }
@@ -79,7 +79,7 @@ h1 {
                               width:0%;
                               max-width:max-content;
                               vertical-align:bottom;
-                              
+                              overflow:hidden
                               height:inherit;
                               word-break:break-all;
                               animation:
