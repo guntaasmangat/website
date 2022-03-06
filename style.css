@@ -52,6 +52,15 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%;
 }
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center; 
+}
 
                             .type {
                               display:inline-block;
@@ -81,7 +90,7 @@ nav img{
                             }
                             @keyframes c{
                               0%,100%{box-shadow:5px 0 0 #0000}
-                              50%    {box-shadow:5px 0 0 red  }
+                              50%    {box-shadow:5px 0 0 blue  }
                             }
                             @keyframes m{
                               100% {transform:translateY(-300%)}
