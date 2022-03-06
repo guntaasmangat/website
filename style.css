@@ -5,7 +5,7 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: imagegradiant-(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url('./compute-eac57a4.png')
+    background-image: imagegradiant-(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(website/compute-eac57a4.png)
     background-position: center;
     background-size: cover;
     position: relative;
