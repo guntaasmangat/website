@@ -32,4 +32,8 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
-
+.nav-links ul li{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
