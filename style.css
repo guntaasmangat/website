@@ -58,8 +58,8 @@ nav{
     transform: translate(-25%,-25%);
     text-align: center; 
 }
-.text-box h1{
-    font-size: xxx-large;
+h1 {
+   font-size: 62px;  
 }
 .text-box p{
     margin: 20px 0 80px;
