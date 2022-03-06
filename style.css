@@ -18,9 +18,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav img{
-    width: 75px;
-}
     
 .nav-links{
     flex: 2;
@@ -62,7 +59,7 @@ nav img{
     text-align: center; 
 }
 .text-box h1{
-    font-size: 200%;
+    font-size: 500%;
 }
 .text-box p{
     margin: 20px 0 80px;
