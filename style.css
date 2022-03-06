@@ -78,11 +78,11 @@ h1 {
                               width:0%;
                               max-width:max-content;
                               vertical-align:bottom;
-                              overflow: hidden;
+                              
                               height:inherit;
                               word-break:break-all;
                               animation:
-                                c 0.5s infinite steps(1),  
+                                c 1.0s infinite steps(1),  
                                 t 2s linear infinite alternate,
                                 m 12s steps(3) infinite;
                             }
