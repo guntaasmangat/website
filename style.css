@@ -5,5 +5,5 @@ body {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradiant(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(website/compute-eac57a4.png)
+    background-image: linear-gradiant(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./compute-eac57a4.png)
 }
