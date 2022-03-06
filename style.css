@@ -50,20 +50,20 @@ nav{
     width: 100%;
 }
 .text-box{
-    width: 90%;
+    width: 100%;
     color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-25%,-25%);
     text-align: center; 
 }
 .text-box h1{
-    font-size: 500%;
+    font-size: 300%;
 }
 .text-box p{
     margin: 20px 0 80px;
-    font-size: 28px;
+    font-size: 20px;
 }
                             .type {
                               display:inline-block;
