@@ -45,6 +45,7 @@ nav img{
     height: 2px;
     background: #0099FF;
     display: block;
+    margins: auto;
     transition: 1.0s;
 }
 
