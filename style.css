@@ -1,7 +1,3 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .header {
     background-image: url(./compute-ea4c57a4.png);
     background-repeat: no-repeat;
@@ -11,4 +7,9 @@ body {
     height: 100%;
 }
     
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
