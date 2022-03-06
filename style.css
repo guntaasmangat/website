@@ -7,7 +7,7 @@ body {
     width: 100%;
     background-image: url(./compute-ea4c57a4.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     
     
