@@ -55,7 +55,7 @@ nav{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-25%,-25%);
+    transform: translate(-50%,-50%);
     text-align: center; 
 }
 h1 {
@@ -63,7 +63,7 @@ h1 {
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 20px;
 }
                             .type {
                               display:inline-block;
