@@ -82,20 +82,19 @@ h1 {
  /*text size for animated "typewriter effect */
 }
 .second{
-    background-color: rgba(0, 0, 0, 0.87);
-    padding-bottom: 160px;
+    background-color: rgba(0, 0, 0, 0.92);
 }/*black background*/
 .about{
     width: 90%;
     margin: auto;
     text-align: left;
-    padding-top: 130px;
+    padding-top: 110px;
     padding-left: 10px;
     top: 40px;
     color: #fff;
 }/* About section setup*/
 h2{
-    font-size: 8vh;
+    font-size: 8vmin;
     line-height: 1.5;
 }/* reactive font for "about me"*/
 .description{
@@ -106,7 +105,9 @@ h2{
     text-align: left;
     padding-top: 0px;
     padding-left: 10px;
+    padding-bottom: 100px;
     top: 40px;
+    bottom: 40px;
     word-wrap: break-word;
 }/* reactive font for "description*/
 .description a{
@@ -143,3 +144,89 @@ p{
     transform: scale(1.05);
     filter: grayscale(0%);
 }/* after hover*/
+
+.projects {
+    width: 90%;
+    margin: auto;
+    line-height: 2;
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    top: 40px;
+    word-wrap: break-word;
+}
+.third{
+    background-color: rgba(0, 0, 0, 0);
+}
+.projects h2{
+    color:rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.projects p{
+    color: #56A5A6;
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 175px;
+    font-weight: bolder;
+    padding-bottom: 175px;
+}
+.contact {
+    color:rgb(255, 255, 255);
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.982);
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+h5, h4, h3 {
+    display: inline;
+}
+.footer h3{
+    font-size: 50px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    position: relative;
+    text-align: left;
+    font-weight: lighter;
+}
+.footer h4{
+    font-size: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    position: relative;
+    text-align: left;
+    font-weight: lighter;
+}
+.footer h5{
+    font-size: 15px;
+    position: relative;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.footer p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:20px;
+}
+.line{
+    border-left: 2px solid #56A5A6;
+    height: 150px;
+    position: absolute;
+    padding-top: 10px;
+    left: 50%;
+    margin-left: -3px;
+    top: 20px;
+
+}
