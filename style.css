@@ -20,7 +20,6 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
 }/* aligning the navigation buttons */
     
 .nav-links{
@@ -40,7 +39,7 @@ nav{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 2.3vh;
     font-style:inherit;
     background-color: transparent;
 }/* removing the underline to the link, making text white */
@@ -79,24 +78,26 @@ h1 {
 .text-box p{
     font-size: 24px;
     background-color: transparent;
+    padding-top: 20px;
  /*text size for animated "typewriter effect */
 }
 .second{
     background-color: rgba(0, 0, 0, 0.87);
-}
+    padding-bottom: 160px;
+}/*black background*/
 .about{
     width: 90%;
     margin: auto;
     text-align: left;
-    padding-top: 150px;
+    padding-top: 130px;
     padding-left: 10px;
     top: 40px;
     color: #fff;
-}
+}/* About section setup*/
 h2{
-    font-size: 6vh;
+    font-size: 8vh;
     line-height: 1.5;
-}
+}/* reactive font for "about me"*/
 .description{
     width: 90%;
     margin: auto;
@@ -107,32 +108,38 @@ h2{
     padding-left: 10px;
     top: 40px;
     word-wrap: break-word;
-}
+}/* reactive font for "description*/
 .description a{
     color: #56A5A6;
     text-decoration: none;
-}
+}/* links are turquiose*/
 .description a:hover{
     color:rgb(255, 255, 255)
-}
+}/* link animation*/
 
 p{
-    font-size: 1vw;
-}
+    font-size: 2.5vmin;
+}/* reactive font for body*/
 
 .picRight{
     float:right;
     max-width: 50%;
-    height: auto;
-    width: auto\9;
+    height: 50%;
+    width: 50%;
     margin-left:20px;
     transition: transform .2s;
     filter: grayscale(40%);
-    position: relative;
-
 }
+
+@media(max-width: 975px) { 
+    .picRight{ 
+      display: none; 
+    }
+  }
+    
+/* fintech picture before hover*/
 .picRight:hover{
     opacity: 100%;
     transform: scale(1.05);
     filter: grayscale(0%);
-}
+}/* after hover*/
